@@ -118,6 +118,25 @@ Neste projeto:
 
 ---
 
+## Padrão Git
+
+Este projeto segue um padrão de commits descritivos em inglês:
+
+- **Formato**: Mensagens claras e diretas descrevendo a mudança
+- **Idioma**: Inglês
+- **Estilo**: Imperativo ("Add", "Update", "Fix", "Enhance")
+
+**Comando para visualizar o histórico**:
+```bash
+git log --oneline --graph --all -10
+```
+
+**Exemplos de commits do projeto**:
+- `Enhance README with improved formatting and add documentation routes section`
+- `Add initial project structure with document search and GPT integration`
+
+---
+
 ## Estrutura do projeto
 
 ```

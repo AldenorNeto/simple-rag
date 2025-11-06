@@ -1,0 +1,19 @@
+{
+  "name": "simple-rag-nodejs",
+  "version": "1.0.0",
+  "description": "Sistema RAG simples em Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@xenova/transformers": "^2.6.0",
+    "openai": "^4.20.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
